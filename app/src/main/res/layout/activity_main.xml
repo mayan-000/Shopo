@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <RelativeLayout
+        android:id="@+id/nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="612dp"
+        android:background="#F2F2F2"
+        tools:context=".MainActivities.MainActivity">
+
+        <HorizontalScrollView
+            android:id="@+id/Hscroll"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="540dp"
+            android:background="#F2F2F2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/Men"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="#F2F2F2"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="fill_vertical"
+                    android:text="MEN"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Women"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="#F2F2F2"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="fill_vertical"
+                    android:onClick="checkCategory"
+                    android:text="WOMEN"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Kids"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="#F2F2F2"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="fill_vertical"
+                    android:onClick="checkCategory"
+                    android:text="KIDS"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="393dp"
+            android:layout_height="706dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="-6dp"
+            android:background="#F2F2F2"
+            android:foregroundGravity="left"
+            android:visibility="invisible"
+            app:headerLayout="@layout/nav_header"
+            app:menu="@menu/nav_menu" />
+
+        <ScrollView
+            android:id="@+id/Scroll"
+            android:layout_width="match_parent"
+            android:layout_height="507dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="73dp"
+            android:layout_marginBottom="0dp"
+            android:background="#F2F2F2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:srcCompat="@drawable/pic1" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:srcCompat="@drawable/pic2" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="offer valid till 7pm"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/openMen1"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    app:srcCompat="@drawable/pic3" />
+
+                <ImageView
+                    android:id="@+id/openMen2"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    app:srcCompat="@drawable/pic4" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="SAVINGS HUB"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/openWomen1"
+                            android:layout_width="250dp"
+                            android:layout_height="350dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/pic5" />
+
+                        <ImageView
+                            android:id="@+id/openKids1"
+                            android:layout_width="250dp"
+                            android:layout_height="350dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/pic6" />
+
+                        <ImageView
+                            android:id="@+id/openMen3"
+                            android:layout_width="250dp"
+                            android:layout_height="350dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/pic7" />
+
+                        <ImageView
+                            android:id="@+id/openWomen2"
+                            android:layout_width="250dp"
+                            android:layout_height="350dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/pic8" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="BIG BRAND BIG DEALS"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/openMen4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/pic9" />
+
+                        <ImageView
+                            android:id="@+id/openMen5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/pic10" />
+
+                        <ImageView
+                            android:id="@+id/openWomen3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/pic11" />
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/pic12" />
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/pic13" />
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/pic14" />
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#F2F2F2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/categoriesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/category" />
+
+        <ImageView
+            android:id="@+id/shoppingCart"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/cart" />
+
+        <ImageView
+            android:id="@+id/profileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/profile" />
+    </LinearLayout>
+
+</LinearLayout>
+

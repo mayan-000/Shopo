@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shopo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shopo1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/shopo1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shopo">
+        <activity android:name=".MainActivities.ordersExtra.payment.card_1"></activity>
+        <activity android:name=".MainActivities.ordersExtra.payment.card" />
+        <activity android:name=".MainActivities.ordersExtra.payment.paytm_1" />
+        <activity android:name=".MainActivities.ordersExtra.payment.paytm" />
+        <activity android:name=".MainActivities.ordersExtra.payment.main_payment" />
+        <activity android:name=".MainActivities.ordersExtra.payment.payment_main" />
+        <activity android:name=".loginSignup.Otp" />
+        <activity android:name=".ExtraActivities.contactUs" />
+        <activity android:name=".loginSignup.loginSignup" />
+        <activity android:name=".loginSignup.Details" />
+        <activity android:name=".loginSignup.profileView" />
+        <activity android:name=".MainActivities.ordersExtra.purchase_history" />
+        <activity android:name=".MainActivities.ordersExtra.buyNow" />
+        <activity android:name=".boysSection.boyCategoryOne" />
+        <activity android:name=".girlsSection.girlCategoryOne" />
+        <activity android:name=".boysSection.kidsBoysCategory" />
+        <activity android:name=".girlsSection.kidsGirlsCategory" />
+        <activity android:name=".womenSection.womenCategoryOne" />
+        <activity android:name=".womenSection.womenCategory" />
+        <activity android:name=".menSection.menCategoryOne" />
+        <activity android:name=".menSection.menCategory" />
+        <activity android:name=".MainActivities.categories" />
+        <activity android:name=".MainActivities.profile_activity" />
+        <activity android:name=".MainActivities.order_activity" />
+        <activity android:name=".ExtraActivities.splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivities.MainActivity" />
+    </application>
+
+</manifest>

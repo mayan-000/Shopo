@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Shopo</string>
+    <string name="Open">NavBar</string>
+    <string name="Close">NavBar</string>
+
+    <string name="channel_id">Welcome</string>
+    <string name="channel_name">Welcome Notify</string>
+    <string name="channel_description">Welcome on Sign Up</string>
+
+    <string name="name" />
+    <string name="e_mail">E-mail</string>
+    <string name="male" />
+    <string name="female" />
+    <string name="address" />
+
+
+    <string name="save_details" />
+    <string name="already_have_an_account" />
+    <string name="login" />
+    <string name="phone_no">"Phone number //10 nums "</string>
+    <string name="password" />
+
+    <string name="create_an_account">Create an Account</string>
+
+
+    <string name="Female">Female</string>
+    <string name="Male">Male</string>
+    <string name="fullname">Full name</string>
+    <string name="addres">Address</string>
+    <string name="phone_number">Phone number</string>
+    <string name="create_account">Create Account</string>
+
+    <string name="fill_details">Fill Details</string>
+    <string name="create_password">Create Password //min 8 chars</string>
+    <string name="mob">Phone Number </string>
+    <string name="Password">Password</string>
+    <string name="full_name" />
+    <string name="sign_up">Sign up</string>
+    <string name="profile">Your Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
