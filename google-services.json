@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "208197067473",
+    "project_id": "shopo-a7526",
+    "storage_bucket": "shopo-a7526.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208197067473:android:c4c09b5c7f40c445ca5bf0",
+        "android_client_info": {
+          "package_name": "com.example.shopo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208197067473-mo45ptabfc49cm42q4qr02i81aa08jg2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shopo",
+            "certificate_hash": "0579b17fa2290a4b7e0cc4d02f27a22ac4d97fce"
+          }
+        },
+        {
+          "client_id": "208197067473-vlevm8vibodbub73snh1milsbl5q72g3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSHDhuudGGeq5ZbGHkNV6fJDNVOlG2K58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208197067473-vlevm8vibodbub73snh1milsbl5q72g3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

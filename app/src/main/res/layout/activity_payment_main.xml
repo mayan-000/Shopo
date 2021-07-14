@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    tools:context=".MainActivities.ordersExtra.payment.payment_main">
+
+    <TextView
+        android:id="@+id/textViewjj"
+        android:layout_width="367dp"
+        android:layout_height="51dp"
+        android:text="Select Payment Method"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageButton
+        android:id="@+id/paytmBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginBottom="268dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardBtn1"
+        app:layout_constraintVertical_bias="0.181"
+        app:srcCompat="@drawable/pay0" />
+
+    <ImageButton
+        android:id="@+id/cardBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewjj"
+        app:srcCompat="@drawable/pay1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
